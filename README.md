@@ -1,3 +1,26 @@
+# How to run this project
+
+- clone this repo using (git clone https://github.com/zeroix07/bank-marketing-churn-prediction.git) or Download Zip
+
+- create virtual environment using this command:
+
+python3 or python -m venv <your virtual environmet> (example : python3 -m venv .venv)
+
+- activate the virtual environment
+
+Windows (use CMD):
+<your virtual environment>\Scripts\activate.bat (example : .venv\Scripts\activate.bat)
+
+or
+
+Mac/Linux
+
+source .venv/bin/activate
+
+- Go to main.ipynb and run all the cell
+
+# Data Understanding
+
 1 - age (numeric)
 
 2 - job : type of job (categorical: "admin.","unknown","unemployed", "management","housemaid","entrepreneur","student", "blue-collar", "self-employed","retired","technician","services") 
